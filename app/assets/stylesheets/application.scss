@@ -11,3 +11,16 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+
+.card-horizontal {
+  display: flex;
+  text-align: left;
+  flex: 1 1 auto;
+  border: 1px solid;
+  margin: 5px;
+}
+
+.list-name {
+  text-align: center;
+}

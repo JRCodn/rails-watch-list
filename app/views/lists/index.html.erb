@@ -1,0 +1,13 @@
+<div class="card mx-auto" style="width: 18rem;">
+  <div class="card-header">
+    Custom movie lists
+  </div>
+  <% @lists.each do |list| %>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><%= link_to list.name.capitalize, list_path(list) %></h2>
+      </li>
+    </ul>
+  <% end %>
+  <%= link_to "New list", new_list_path, class: "btn btn-dark" %>
+</div>
+
