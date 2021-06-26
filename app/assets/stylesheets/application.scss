@@ -24,3 +24,16 @@
 .list-name {
   text-align: center;
 }
+
+.card-body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-between;
+  // align-items: flex-end;
+  // position: relative;
+  .card-remove-link {
+  text-align: right;
+  }
+
+}
